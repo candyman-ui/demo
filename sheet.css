@@ -1,0 +1,60 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background color */
+body {
+    background-color: #000;
+}
+
+/* Center the content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the Netflix logo */
+.logo {
+    color: #e50914;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* Style the main heading */
+.heading {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* Style the buttons */
+.button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+
+.button:hover {
+    background-color: #b2070a;
+}
+
+/* Style the footer */
+.footer {
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
